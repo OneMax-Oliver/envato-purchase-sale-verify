@@ -6,7 +6,7 @@
 class PurchaseVerify
 {
 	
-	protected $tokenBearer = 'FG2yzZckzdhFdvHeH4XJO4Yyf0dACcWe'; // envato Api key
+	protected $tokenBearer = 'YourEnvatoApiKey'; // envato Api key
 
 	public function verify($purchaseCode): bool {
 
